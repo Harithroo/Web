@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marvels Gallery</title>
+    <link rel="stylesheet" href="excss.css">
+    </head>
+<body>
+	<header>
+	<img class="logo"src="logo.png">    
+	<nav>
+	<ul>
+	<li><a href="feedback.html" class="feedback">FEEDBACK</a></li>
+	<li><a href="aboutus.html" class="aboutus">ABOUT US</a></li>
+	<li><a href="sitemap.html" class="sitemap">SITE MAP</a></li>
+	<li><a href="gallery.html" class="gallery">GALLERY</a></li>
+	<li><a href="quiz.html" class="quiz">QUIZ</a></li>
+	<li><a href="store.html" class="store">STORE</a></li>
+	<li><a href="home.html" class="home">HOME</a></li>
+	</ul>
+	</nav>                
+    </header>
+	<form>
+	
+	<div align="center">
+	<main>
+		<div>
+			<center>
+			<h1 id="heading">Marvels</h1>
+			</center>
+		</div>
+		<div class=full>
+			<img id="Image1" src="ultron.jpg" class=full>
+		</div class=dis>
+		<div id="thumbnailsHolder">
+			<img src="ultron.jpg" class=thumb onmouseover="zero0()">
+			<img src="abomination.jpg" class=thumb onmouseover="zero1()">
+			<img src="loki.jpg" class=thumb onmouseover="zero2()">
+			<img src="thanos.jpg" class=thumb onmouseover="zero3()">
+			<img src="venom.jpg" class=thumb onmouseover="zero4()">
+		</div>
+		
+		<p id="Data" class=dis>Tony Stark initially sees Ultron as a form of A.I. that could keep peace on a global scale, essentially acting as a suit of armor around the whole world, protecting it from large scale threats like the Chitauri. However, he is unable to complete it until he discovers a living computer system inside of Loki's Scepter. Working in secret with Bruce Banner, Stark uses this newly discovered artificial intelligence to finish his defense program. When Ultron wakes up, though, he finds his creators lacking. He instantly makes moves to wipe the Avengers—and most of humanity—off the map, to evolve life on the planet to the next step</p>
+		</div>
+		
+	</form>
+	<div class="bgspace">
+	<footer class="footer">
+	<div class=cvlink>
+	By : <a href="cvn.html" class=cvlink>NADEERA</a>
+	</div>
+	Copyright &copy; 2019, All Rights Reserved by MARVELS
+	</footer>
+	</div>
+</body>
+
+<script type="text/javascript">
+    function zero0() {
+        document.getElementById("Image1").src = "ultron.jpg";
+        document.getElementById("Data").innerHTML = "<center><p>Tony Stark initially sees Ultron as a form of A.I. that could keep peace on a global scale, essentially acting as a suit of armor around the whole world, protecting it from large scale threats like the Chitauri. However, he is unable to complete it until he discovers a living computer system inside of Loki's Scepter. Working in secret with Bruce Banner, Stark uses this newly discovered artificial intelligence to finish his defense program. When Ultron wakes up, though, he finds his creators lacking. He instantly makes moves to wipe the Avengers—and most of humanity—off the map, to evolve life on the planet to the next step</p>";
+    }
+
+    function zero1() {
+        document.getElementById("Image1").src = "abomination.jpg";
+        document.getElementById("Data").innerHTML = "<center><p>Formerly known as Emil Blonsky, a spy of Soviet Yugoslavian origin working for the KGB, the Abomination gained his powers after receiving a dose of gamma radiation similar to that which transformed Bruce Banner into the incredible Hulk. As a result he was permanently transformed into a massive green-skinned monster whose physical power was equivalent to, if not greater than, that of the Hulk. While he was able to maintain his normal level of self-control and intelligence after this transformation, he is unable to return to human form.</p>";
+    }
+
+    function zero2() {
+        document.getElementById("Image1").src = "loki.jpg";
+        document.getElementById("Data").innerHTML = "<center><p>The ever-scheming Loki, raised as the son of King Odin and Queen Frigga of Asgard, is resentful of living in his brother Thor’s shadow. Loki studied magical arts earning the “God of Mischief” title, while his brother pursued physical prowess. Believing himself to be the rightful King of Asgard, Loki schemes to undermine the God of Thunder’s ascension to the throne, desperate for his father’s approval and to be seen as an equal to Thor.</p>";
+    }
+
+    function zero3() {
+        document.getElementById("Image1").src = "thanos.jpg";
+        document.getElementById("Data").innerHTML = "<center><p>A native of the planet Titan, Thanos saw the danger his people were in from overpopulation and suggested a severe solution—the elimination of half the population, at random and without prejudice, in order to make life better for the planet as a whole. He was shunned as a madman, but his planet did indeed eventually die, lacking the resources needed to keep up with the demands.Firmly believing that the universe at large was in the same danger as Titan, Thanos grew to power as a force bringing death and destruction from planet to planet, with untold legions of soldiers and servants at his beck and call. Infamous for annihilating entire races in service of depopulating what he believes to be an overcrowded universe</p>";
+    }
+
+    function zero4() {
+        document.getElementById("Image1").src = "venom.jpg";
+        document.getElementById("Data").innerHTML = "<center><p>Eddie Brock was the son of a brilliant scientist who teamed with Richard Parker to create a protoplasmic dip nicknamed “The Suit”, designed as a cure for cancer; but the Suit’s potential as a weapon tempted project financiers Trask Industries, who seized control of the project. Mostly unaware of his father’s troubles, Eddie befriended Parker’s son, the slightly younger Peter. When both sets of parents were killed in a tragic plane crash, Eddie went to live with his grandparents and lost contact with Peter for years. Eddie’s grandfather eventually gave him a frozen sample of the Suit, hidden away by Ed Brock Sr. Eddie threw himself into a study of his father’s work, seeing it as a way to connect with his lost parent. This pursuit eventually led him to Empire State University and a close relationship with Doctor Curt Conners, who helped Eddie study the Suit</p>";
+    }
+    function bgcolor() {
+	if (x=="red"){
+	 document.body.style.backgroundColor = 'red';
+	}
+}
+</script>
+</html>

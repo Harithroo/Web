@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="excss.css">
+    </head>
+    <body>
+            <header>
+                    <img class="logo"src="logo.png">
+                
+        
+                    
+                           
+                    
+                                    
+                    <nav>               
+                        <ul>
+                            <li><a href="feedback.html" class="feedback">FEEDBACK</a></li>
+                            <li><a href="aboutus.html" class="aboutus">ABOUT US</a></li>
+                            <li><a href="sitemap.html" class="sitemap">SITE MAP</a></li>
+                            <li><a href="gallery.html" class="gallery">GALLERY</a></li>
+                            <li><a href="quiz.html" class="quiz">QUIZ</a></li>
+                            <li><a href="store.html" class="store">STORE</a></li>
+                            <li><a href="home.html" class="home">HOME</a></li>
+                        </ul>
+                    </nav>                
+                </header>
+           
+       
+        
+                                    
+            
+            
+        
+        <div class="firstcon">
+                <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                   
+                          <img src="thorslide.jpg" style="width:100%">
+                          
+                        </div>
+                        
+                        <div class="mySlides fade">
+                        
+                          <img src="ironslide.jpg" style="width:100%">
+                          
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          
+                          <img src="blackwidowslide.jpg" style="width:100%">
+                          
+                        </div>
+                        <div class="mySlides fade">
+                          
+                          <img src="hawkslide.jpg" style="width:100%">
+                        
+                        </div>
+                        <div class="mySlides fade">
+                          
+                          <img src="capslide.jpg" style="width:100%">
+                        
+                        </div>
+                        <div class="mySlides fade">
+                          
+                            <img src="avengerswall.jpg" style="width:100%">
+                          
+                          </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                        </div>
+                        <br>
+                        
+                        
+                        <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+                        
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                        }
+                        
+                        function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                        }
+                        
+                        function showSlides(n) {
+                          var i;
+                          var slides = document.getElementsByClassName("mySlides");
+                          var dots = document.getElementsByClassName("dot");
+                          if (n > slides.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = slides.length}
+                          for (i = 0; i < slides.length; i++) {
+                              slides[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                              dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                        }
+                        </script>
+               
+        </div>
+        <div class="bgspace">
+            <footer class="footer">
+                Copyright &copy; 2019, All Rights Reserved by MARVELS
+              </footer>
+        </div>
+        
+        
+        <div class="main-container">
+                <h1>MARVELS</h1>
+                <br>
+                <br>
+                <p>This website is solely dedicated to Marvel fans.Marvel  is the brand name and primary imprint of Marvel Worldwide Inc., formerly Marvel Publishing, Inc. and Marvel Comics Group, a publisher of American comic books and related media. In 2009, The Walt Disney Company acquired Marvel Entertainment, Marvel Worldwide's parent company.</p><br>
+        
+                <p>Marvel counts among its characters such well-known superheroes as Spider-Man, the Hulk, Iron Man, Thor, Captain America, Wolverine, Black Panther, Doctor Strange, Captain Marvel, Black Widow, Hawkeye, Daredevil, the Silver Surfer, Ant-Man and Deadpool, such teams as the Avengers, the X-Men, Green Goblin. Most of Marvel's fictional characters operate in a single reality known as the Marvel Universe, with most locations mirroring real-life places; many major characters are based in New York City.</p>
+            </div>
+            
+    </body>
+</html>

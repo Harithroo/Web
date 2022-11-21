@@ -1,0 +1,32 @@
+body{background-color:black;font-family:arial;}
+
+
+.navi{background-color:#A8A8A8; color:black; padding:4px 8px 4px;}
+.pad{padding:1px; border: solid #A8A8A8; color:black;}
+.pad:hover{border: solid red;}
+.check{float:right; color:black;padding:0px 110px 8px 0px;}
+
+.price{color:#A8A8A8; float:right; padding:0% 8% 0%;}
+.button{float:right;}
+
+.last{float:right; padding:4% 14% 0% 0%;}
+.p{color:#A8A8A8; font-size:19px;}
+.legend{width: 50%; background-color:#111111;}
+.h3{color:#A8A8A8; font-size:23px; margin-top: 5px;}
+.submit{width: 100%;}
+.inputtext{width: 100%; padding: 2px; 
+			border: 2px solid #ccc; border-radius: 4px; 
+			box-sizing: border-box; margin-top: 5px; 
+			margin-bottom: 15px;}
+
+.movie{padding-top:1%;}
+.select{padding:1%; width:10%;}
+.select:hover{background-color:red;}
+
+.h1{font-size:32px;color:#A8A8A8;padding:4px 0px 2px;}
+.h2{font-size:25px;color:#A8A8A8; padding:4px 3% 8px;}
+.para{width:45%; padding-left:5%; color:#A8A8A8;}
+.float{float:right; padding-right:8%; width:20%;}
+.gridb{float:right; padding:2% 15% 2%;  width:25%; color:#A8A8A8;}
+.grida{padding:2% 15% 5%; color:#A8A8A8;}
+
